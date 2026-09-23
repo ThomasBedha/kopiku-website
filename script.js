@@ -1,4 +1,4 @@
-// buat hamburger bisa di klik
+// buat bisa di klik
 let hamburger = document.querySelector('.hamburger');
 let navMenu = document.querySelector('.nav-menu');
 
@@ -7,7 +7,7 @@ hamburger.addEventListener('click', function() {
     navMenu.classList.toggle('active');
 });
 
-// klik link menu tutup hamburger
+// klik link menu tutup
 let navLinks = document.querySelectorAll('.nav-menu a');
 navLinks.forEach(function(link) {
     link.addEventListener('click', function() {

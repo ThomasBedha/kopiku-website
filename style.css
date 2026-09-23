@@ -88,7 +88,7 @@ img {
     border-radius: 3px;
 }
 
-/* bagian hero */
+/* bagian  beranda */
 .hero {
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ img {
     box-shadow: 0 6px 18px rgba(90,50,20,0.12);
 }
 
-/* keunggulan 3 kartu */
+/* keunggulan */
 .features {
     max-width: 1100px;
     margin: 32px auto 0;
