@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOPIKU - Teman Ngopi Setiap Hari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar atas -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>KOPIKU</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero / beranda -->
+    <section id="beranda" class="hero">
+        <div class="hero-text">
+            <h2>Temani Harimu dengan Secangkir Kopi</h2>
+            <p>Nikmati kopi pilihan dengan rasa yang nikmat dan suasana yang nyaman untuk menemani harimu.</p>
+            <button class="hero-button">Lihat Menu</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/kopi-hero.jpg" alt="Secangkir kopi">
+        </div>
+    </section>
+
+    <!-- bagian tentang -->
+    <section id="tentang" class="about">
+        <div class="about-text">
+            <h2>Tentang KOPIKU</h2>
+            <p>KOPIKU adalah kedai kopi sederhana yang menyediakan berbagai pilihan minuman untuk menemani waktu santai, belajar, maupun berkumpul bersama teman.</p>
+        </div>
+        <div class="about-image">
+            <img src="assets/images/kedai-kopi.jpg" alt="Kedai KOPIKU">
+        </div>
+    </section>
+
+    <!-- keunggulan kita -->
+    <section class="features">
+        <h2>Kenapa KOPIKU?</h2>
+        <div class="features-container">
+            <div class="feature-item">
+                <h3>Kopi Berkualitas</h3>
+                <p>Menggunakan biji kopi pilihan.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Harga Terjangkau</h3>
+                <p>Harga yang cocok untuk pelajar dan mahasiswa.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Tempat Nyaman</h3>
+                <p>Cocok untuk bersantai, belajar, dan mengobrol.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- list menu kopi -->
+    <section id="menu" class="menu">
+        <h2>Menu Favorit</h2>
+        <p class="menu-desc">Beberapa menu yang paling sering dipilih pelanggan kami.</p>
+        <div class="menu-container">
+            <div class="menu-card">
+                <img src="assets/images/americano.jpg" alt="Americano">
+                <h3>Americano</h3>
+                <p class="menu-price">Rp18.000</p>
+                <p class="menu-text">Kopi hitam dengan rasa yang kuat dan sederhana.</p>
+                <button class="menu-button">Pesan</button>
+            </div>
+            <div class="menu-card">
+                <img src="assets/images/cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p class="menu-price">Rp22.000</p>
+                <p class="menu-text">Perpaduan espresso dan susu dengan foam yang lembut.</p>
+                <button class="menu-button">Pesan</button>
+            </div>
+            <div class="menu-card">
+                <img src="assets/images/matcha.jpg" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <p class="menu-price">Rp25.000</p>
+                <p class="menu-text">Perpaduan matcha berkualitas dengan susu yang creamy.</p>
+                <button class="menu-button">Pesan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- form kontak -->
+    <section id="kontak" class="contact">
+        <h2>Hubungi Kami</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Masukkan nama Anda">
+                <p class="error-message" id="nameError"></p>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukkan email Anda">
+                <p class="error-message" id="emailError"></p>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" rows="4" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="contact-button">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- footer bawah -->
+    <footer class="footer">
+        <h3>KOPIKU</h3>
+        <p>Teman ngopi untuk setiap cerita.</p>
+        <p class="copyright">© 2026 KOPIKU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
